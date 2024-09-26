@@ -1,7 +1,7 @@
 name: API Deployment
 
 env:
-  registryName: {your_registry_name}.azurecr.io
+  registryName: psjdffwb4bkawcosureg.azurecr.io
   repositoryName: techexcel/csapi
   dockerFolderPath: ./src/ContosoSuitesWebAPI
   tag: ${{github.run_number}}
